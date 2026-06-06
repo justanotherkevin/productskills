@@ -1,13 +1,13 @@
 {
   "name": "productskills",
   "owner": {
-    "name": "Tair Asim",
-    "url": "https://github.com/assimovt"
+    "name": "Kevin Hu",
+    "url": "https://github.com/justanotherkevin"
   },
   "metadata": {
     "description": "Product skills for AI agents — discovery, strategy, prioritization, and PRD writing",
     "version": "1.0.0",
-    "repository": "https://github.com/assimovt/productskills"
+    "repository": "https://github.com/justanotherkevin/productskills"
   },
   "plugins": [
     {

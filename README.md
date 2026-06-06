@@ -1,10 +1,10 @@
-# Product Skills for Claude Code
+# Personal ProductSkills Fork
 
-AI agent skills for product management — discovery, strategy, prioritization, and PRD writing. Built for PMs and founders who use AI coding agents to ship faster.
+A quick-pull library of AI agent skills for product management — discovery, strategy, prioritization, and PRD writing. Based on [Tair Asim](https://x.com/tair)'s original productskills collection of framework-driven PM methodologies.
 
 Every skill encodes a real framework (Mom Test, Shape Up, Obviously Awesome, Teresa Torres) as opinionated, actionable instructions. 50-150 lines each. No fluff.
 
-Built by [Tair Asim](https://x.com/tair). **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](CONTRIBUTING.md).
+Use this repo as a personal skill library — when working in a new codebase or environment, pull in the skills you need for that project's product thinking.
 
 ## Installation
 
@@ -12,33 +12,33 @@ Built by [Tair Asim](https://x.com/tair). **Contributions welcome!** Found a way
 
 ```bash
 # Install all skills
-npx skills add assimovt/productskills
+npx skills add justanotherkevin/productskills
 
 # Install specific skills
-npx skills add assimovt/productskills --skill prd-writing scope-cutting
+npx skills add justanotherkevin/productskills --skill prd-writing scope-cutting
 
 # List available skills
-npx skills add assimovt/productskills --list
+npx skills add justanotherkevin/productskills --list
 ```
 
 ### Option 2: Claude Code Plugin
 
 ```bash
-/plugin marketplace add assimovt/productskills
+/plugin marketplace add justanotherkevin/productskills
 /plugin install product-skills
 ```
 
 ### Option 3: Clone and Copy
 
 ```bash
-git clone https://github.com/assimovt/productskills.git
+git clone https://github.com/justanotherkevin/productskills.git
 cp -r productskills/skills/* .claude/skills/
 ```
 
 ### Option 4: Git Submodule
 
 ```bash
-git submodule add https://github.com/assimovt/productskills.git .claude/productskills
+git submodule add https://github.com/justanotherkevin/productskills.git .claude/productskills
 ```
 
 Then reference skills from `.claude/productskills/skills/`.
@@ -101,9 +101,23 @@ These skills are markdown files. They work with any AI coding agent:
 - `experiment-design` - Hypothesis-driven A/B tests
 - `roadmap-planning` - Now/Next/Later, outcome-based
 
-## Contributing
+## How I Discover & Add Skills
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+This is a living document. New skills enter the repo when I encounter product frameworks in the wild — from books, research, competitor analysis, or new project contexts.
+
+**Triggers for a new skill:**
+- Reading a PM methodology that's been proven across teams (e.g., Shape Up, Mom Test, Obviously Awesome)
+- Discovering a framework that unlocks a new way to think about a product problem
+- Observing a pattern across multiple successful products or teams
+- Needing a structured approach to a product challenge I haven't solved cleanly before
+
+**Process:**
+1. Identify the framework and its core methodology
+2. Create a `SKILL.md` file (50-150 lines) with opinionated, actionable rules
+3. Test it in a real product context to verify it's useful
+4. Add to the repo and organize into the right category
+
+This means the repo grows as my product thinking evolves — it's a reference for myself, and a snapshot of frameworks I've found indispensable.
 
 ## License
 

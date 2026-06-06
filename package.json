@@ -2,8 +2,8 @@
   "name": "productskills",
   "version": "1.0.0",
   "description": "Product skills for AI agents — built on how the best teams ship",
-  "repository": "https://github.com/assimovt/productskills",
-  "author": "Tair Asim",
+  "repository": "https://github.com/justanotherkevin/productskills",
+  "author": "Kevin Hu",
   "license": "MIT",
   "keywords": [
     "claude-code",

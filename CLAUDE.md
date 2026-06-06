@@ -1,6 +1,6 @@
 # ProductSkills
 
-Open-source AI agent skills for product teams. 16 skills built on real frameworks (Mom Test, Shape Up, Obviously Awesome, Teresa Torres, Linear Method, YC).
+Personal fork of productskills (originally by Tair Asim). A quick-pull library of AI agent skills for product management — 16 skills built on real frameworks (Mom Test, Shape Up, Obviously Awesome, Teresa Torres, Linear Method, YC). Install via `npx skills add justanotherkevin/productskills`.
 
 ## What This Repo Is
 
